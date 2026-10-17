@@ -1,0 +1,11 @@
+NovaNet's default globe favicons use OpenMoji's "globe with meridians" (1F310).
+
+Artwork: OpenMoji — https://openmoji.org/
+Source: https://github.com/hfg-gmuend/openmoji/blob/master/color/svg/1F310.svg
+Licence: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+
+The vendored SVG at assets/openmoji/1F310.svg was converted to PNG and ICO
+at several sizes. The Apple touch icon also has a cream background.
+These favicon files retain the same CC BY-SA 4.0 licence.
+Keep this credit with the files, including when OpenMoji post artwork is disabled.

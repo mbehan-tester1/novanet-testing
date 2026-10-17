@@ -1,0 +1,15 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Your site name",
+  "home_page_url": "https://example.com",
+  "feed_url": "https://example.com/feeds/feed.json",
+  "description": "Your home on the internet.",
+  "authors": [
+    {
+      "name": "Your name here",
+      "url": "https://example.com"
+    }
+  ],
+  "language": "en-IE",
+  "items": []
+}

@@ -1,0 +1,14 @@
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local editor settings and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Website content, generated feeds, media, VERSION, and hosting files stay tracked.

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-IE">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- update-site.py keeps these basics in sync with config.json. -->
+    <meta name="description" content="Your home on the internet.">
+    <meta name="theme-color" content="#202122">
+    <title>Your site name</title>
+    <!-- Favicons are configured in config.json and updated by update-site.py. -->
+    <link data-config-favicon="favicon32" rel="icon" type="image/png" sizes="32x32" href="assets/site/favicons/favicon-32.png">
+    <link data-config-favicon="favicon16" rel="icon" type="image/png" sizes="16x16" href="assets/site/favicons/favicon-16.png">
+    <link data-config-favicon="appleTouchIcon" rel="apple-touch-icon" sizes="180x180" href="assets/site/favicons/apple-touch-icon.png">
+    <link data-config-favicon="shortcutIcon" rel="shortcut icon" href="assets/site/favicons/favicon.ico">
+    <!-- Feed titles are kept in sync with config.json by update-site.py. -->
+    <link rel="alternate" type="application/rss+xml" title="Your site name RSS" href="feeds/rss.xml">
+    <link rel="alternate" type="application/feed+json" title="Your site name JSON Feed" href="feeds/feed.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- The optional external font stylesheet comes from config.json. -->
+    <link data-config-font href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <!-- Edit style.css for custom styling beyond config.json. -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--
+      The visible profile and posts are filled in by script.js.
+      Edit config.json for profile/site settings and posts.json for posts.
+      This HTML is safe to tweak for broad page structure.
+    -->
+    <div class="page-shell">
+      <!-- Profile content comes from config.json. -->
+      <aside id="profile" class="profile-card" aria-label="Profile"></aside>
+
+      <main class="feed-panel" aria-live="polite">
+        <!-- Posts come from posts.json. Keep this id so script.js can render them. -->
+        <div id="posts" class="posts" aria-label="Posts"></div>
+      </main>
+    </div>
+
+    <!-- Footer text is controlled by config/features in script.js. -->
+    <footer id="site-footer" class="site-footer"></footer>
+
+    <!-- script.js loads config.json and posts.json. -->
+    <script src="script.js"></script>
+  </body>
+</html>

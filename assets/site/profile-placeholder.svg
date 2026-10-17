@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+  <title>Profile photo placeholder</title>
+  <rect width="640" height="640" fill="#efece4"/>
+  <g fill="#8c9f96">
+    <circle cx="320" cy="220" r="88"/>
+    <path d="M120 640v-70c0-110 90-200 200-200s200 90 200 200v70z"/>
+  </g>
+</svg>
