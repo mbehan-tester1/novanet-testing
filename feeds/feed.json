@@ -1,15 +1,29 @@
 {
-  "version": "https://jsonfeed.org/version/1.1",
-  "title": "Your site name",
-  "home_page_url": "https://example.com",
-  "feed_url": "https://example.com/feeds/feed.json",
-  "description": "Your home on the internet.",
-  "authors": [
+  "version" : "https://jsonfeed.org/version/1.1",
+  "title" : "Your site name",
+  "description" : "Your home on the internet.",
+  "home_page_url" : "https://example.com",
+  "items" : [
     {
-      "name": "Your name here",
-      "url": "https://example.com"
+      "id" : "https://example.com/index.html?post=14465d27-f3c0-4b0b-ae17-6bcc9ba1d0ae",
+      "authors" : [
+        {
+          "name" : "Your name here",
+          "url" : "https://example.com"
+        }
+      ],
+      "content_html" : "<article>\n  <p>This is my first post, let’s gooo!</p>\n</article>",
+      "url" : "https://example.com/index.html?post=14465d27-f3c0-4b0b-ae17-6bcc9ba1d0ae",
+      "summary" : "This is my first post, let’s gooo!",
+      "date_published" : "2026-10-18T12:00:00Z"
     }
   ],
-  "language": "en-IE",
-  "items": []
+  "authors" : [
+    {
+      "name" : "Your name here",
+      "url" : "https://example.com"
+    }
+  ],
+  "language" : "en-IE",
+  "feed_url" : "https://example.com/feeds/feed.json"
 }
