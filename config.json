@@ -2,8 +2,8 @@
   "theme" : {
     "fontStylesheet" : "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800;900&display=swap",
     "colors" : {
-      "mediaOverlayBackground" : "rgba(23, 25, 27, 0.82)",
-      "postShadow" : "0 12px 0 rgba(0, 0, 0, 0.16), 0 26px 48px rgba(0, 0, 0, 0.18)",
+      "controlBackground" : "rgba(255, 255, 255, 0.055)",
+      "postText" : "#17191b",
       "shadow" : "0 24px 60px rgba(0, 0, 0, 0.28)",
       "controlBackgroundHover" : "rgba(255, 255, 255, 0.12)",
       "postHoverShadow" : "0 18px 0 rgba(0, 0, 0, 0.13), 0 34px 58px rgba(0, 0, 0, 0.28)",
@@ -13,12 +13,12 @@
       "accent" : "#f8d66d",
       "text" : "#f7f2e8",
       "muted" : "#a9aaa8",
+      "postShadow" : "0 12px 0 rgba(0, 0, 0, 0.16), 0 26px 48px rgba(0, 0, 0, 0.18)",
       "mediaOverlayText" : "#f7f2e8",
       "panel" : "#343536",
+      "mediaOverlayBackground" : "rgba(23, 25, 27, 0.82)",
       "controlText" : "#f7f2e8",
-      "line" : "rgba(255, 255, 255, 0.12)",
-      "controlBackground" : "rgba(255, 255, 255, 0.055)",
-      "postText" : "#17191b"
+      "line" : "rgba(255, 255, 255, 0.12)"
     },
     "fontSizes" : {
       "base" : "20px",
@@ -41,6 +41,17 @@
       "profileBody" : "1.15rem",
       "linkPreviewTitle" : "1.05rem"
     },
+    "radii" : {
+      "linkPreview" : "16px",
+      "linkPreviewImage" : "12px",
+      "emoji" : "20px",
+      "card" : "24px",
+      "profilePhoto" : "26px",
+      "media" : "18px",
+      "control" : "999px"
+    },
+    "fontFamily" : "\"Source Sans 3\", \"Source Sans Pro\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "colorScheme" : "dark",
     "postColors" : [
       "#f8d66d",
       "#9ee6c9",
@@ -52,25 +63,47 @@
       "#ace7ef",
       "#ffef99",
       "#d7c7ff"
-    ],
-    "fontFamily" : "\"Source Sans 3\", \"Source Sans Pro\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-    "colorScheme" : "dark",
-    "radii" : {
-      "linkPreview" : "16px",
-      "linkPreviewImage" : "12px",
-      "emoji" : "20px",
-      "card" : "24px",
-      "profilePhoto" : "26px",
-      "media" : "18px",
-      "control" : "999px"
-    }
+    ]
+  },
+  "features" : {
+    "openmoji" : true,
+    "postHandle" : true,
+    "filterByEmoji" : true,
+    "postEmoji" : true,
+    "postHoverRotation" : true,
+    "postHoverShadow" : true
+  },
+  "site" : {
+    "language" : "en-IE",
+    "title" : "Your site name",
+    "url" : "https://mbehan-tester1.github.io/novanet-testing/",
+    "description" : "Your home on the internet."
   },
   "assets" : {
-    "favicon32" : "assets/site/favicons/favicon-32.png",
     "favicon16" : "assets/site/favicons/favicon-16.png",
     "appleTouchIcon" : "assets/site/favicons/apple-touch-icon.png",
-    "profilePhoto" : "assets/site/profile-placeholder.svg",
-    "shortcutIcon" : "assets/site/favicons/favicon.ico"
+    "shortcutIcon" : "assets/site/favicons/favicon.ico",
+    "favicon32" : "assets/site/favicons/favicon-32.png",
+    "profilePhoto" : "assets/profile.jpg"
+  },
+  "profile" : {
+    "bio" : "Non-bio",
+    "location" : "Behind you ",
+    "name" : "Testy testers on",
+    "photoAlt" : "Fail",
+    "links" : [
+      {
+        "label" : "RSS",
+        "url" : "feeds/rss.xml",
+        "emoji" : "🛰️"
+      },
+      {
+        "label" : "JSON Feed",
+        "url" : "feeds/feed.json",
+        "emoji" : "🛰️"
+      }
+    ],
+    "handle" : "@testy"
   },
   "labels" : {
     "threadReply" : "Thread reply",
@@ -86,38 +119,5 @@
     "loadError" : "Posts could not be loaded.",
     "previousPost" : "← Previous",
     "unwrapCode" : "Unwrap code"
-  },
-  "site" : {
-    "language" : "en-IE",
-    "title" : "Your site name",
-    "url" : "https://mbehan-tester1.github.io/novanet-testing/",
-    "description" : "Your home on the internet."
-  },
-  "profile" : {
-    "bio" : "A little about you can go here.",
-    "links" : [
-      {
-        "label" : "RSS",
-        "url" : "feeds/rss.xml",
-        "emoji" : "🛰️"
-      },
-      {
-        "label" : "JSON Feed",
-        "url" : "feeds/feed.json",
-        "emoji" : "🛰️"
-      }
-    ],
-    "photoAlt" : "Placeholder silhouette for your profile photo",
-    "name" : "Your name here",
-    "location" : "Your location",
-    "handle" : ""
-  },
-  "features" : {
-    "openmoji" : true,
-    "postHandle" : true,
-    "filterByEmoji" : true,
-    "postEmoji" : true,
-    "postHoverRotation" : true,
-    "postHoverShadow" : true
   }
 }
