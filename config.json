@@ -1,9 +1,24 @@
 {
+  "labels" : {
+    "threadReply" : "Thread reply",
+    "latestPosts" : "latest posts",
+    "missingPost" : "That post seems to have wandered off.",
+    "thread" : "Thread",
+    "nextPost" : "Next →",
+    "emptyFilter" : "Nothing in the feed matches that icon.",
+    "backToFeed" : "← Back to feed",
+    "pinned" : "Pinned",
+    "threadReplies" : "Thread replies",
+    "wrapCode" : "Wrap code",
+    "loadError" : "Posts could not be loaded.",
+    "previousPost" : "← Previous",
+    "unwrapCode" : "Unwrap code"
+  },
   "theme" : {
     "fontStylesheet" : "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800;900&display=swap",
     "colors" : {
-      "controlBackground" : "rgba(255, 255, 255, 0.055)",
-      "postText" : "#17191b",
+      "controlText" : "#f7f2e8",
+      "line" : "rgba(255, 255, 255, 0.12)",
       "shadow" : "0 24px 60px rgba(0, 0, 0, 0.28)",
       "controlBackgroundHover" : "rgba(255, 255, 255, 0.12)",
       "postHoverShadow" : "0 18px 0 rgba(0, 0, 0, 0.13), 0 34px 58px rgba(0, 0, 0, 0.28)",
@@ -17,8 +32,8 @@
       "mediaOverlayText" : "#f7f2e8",
       "panel" : "#343536",
       "mediaOverlayBackground" : "rgba(23, 25, 27, 0.82)",
-      "controlText" : "#f7f2e8",
-      "line" : "rgba(255, 255, 255, 0.12)"
+      "controlBackground" : "rgba(255, 255, 255, 0.055)",
+      "postText" : "#17191b"
     },
     "fontSizes" : {
       "base" : "20px",
@@ -41,17 +56,6 @@
       "profileBody" : "1.15rem",
       "linkPreviewTitle" : "1.05rem"
     },
-    "radii" : {
-      "linkPreview" : "16px",
-      "linkPreviewImage" : "12px",
-      "emoji" : "20px",
-      "card" : "24px",
-      "profilePhoto" : "26px",
-      "media" : "18px",
-      "control" : "999px"
-    },
-    "fontFamily" : "\"Source Sans 3\", \"Source Sans Pro\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-    "colorScheme" : "dark",
     "postColors" : [
       "#f8d66d",
       "#9ee6c9",
@@ -63,34 +67,21 @@
       "#ace7ef",
       "#ffef99",
       "#d7c7ff"
-    ]
-  },
-  "features" : {
-    "openmoji" : true,
-    "postHandle" : true,
-    "filterByEmoji" : true,
-    "postEmoji" : true,
-    "postHoverRotation" : true,
-    "postHoverShadow" : true
-  },
-  "site" : {
-    "language" : "en-IE",
-    "title" : "Your site name",
-    "url" : "https://mbehan-tester1.github.io/novanet-testing/",
-    "description" : "Your home on the internet."
-  },
-  "assets" : {
-    "favicon16" : "assets/site/favicons/favicon-16.png",
-    "appleTouchIcon" : "assets/site/favicons/apple-touch-icon.png",
-    "shortcutIcon" : "assets/site/favicons/favicon.ico",
-    "favicon32" : "assets/site/favicons/favicon-32.png",
-    "profilePhoto" : "assets/profile.jpg"
+    ],
+    "fontFamily" : "\"Source Sans 3\", \"Source Sans Pro\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "colorScheme" : "dark",
+    "radii" : {
+      "linkPreview" : "16px",
+      "linkPreviewImage" : "12px",
+      "emoji" : "20px",
+      "card" : "24px",
+      "profilePhoto" : "26px",
+      "media" : "18px",
+      "control" : "999px"
+    }
   },
   "profile" : {
-    "bio" : "Non-bio",
-    "location" : "Behind you ",
-    "name" : "Testy testers on",
-    "photoAlt" : "Fail",
+    "handle" : "@testy",
     "links" : [
       {
         "label" : "RSS",
@@ -103,21 +94,30 @@
         "emoji" : "🛰️"
       }
     ],
-    "handle" : "@testy"
+    "photoAlt" : "Fail",
+    "name" : "Testy testers on",
+    "location" : "Behind you ",
+    "bio" : "Non-bio"
   },
-  "labels" : {
-    "threadReply" : "Thread reply",
-    "latestPosts" : "latest posts",
-    "missingPost" : "That post seems to have wandered off.",
-    "thread" : "Thread",
-    "nextPost" : "Next →",
-    "emptyFilter" : "Nothing in the feed matches that icon.",
-    "backToFeed" : "← Back to feed",
-    "pinned" : "Pinned",
-    "threadReplies" : "Thread replies",
-    "wrapCode" : "Wrap code",
-    "loadError" : "Posts could not be loaded.",
-    "previousPost" : "← Previous",
-    "unwrapCode" : "Unwrap code"
+  "features" : {
+    "openmoji" : true,
+    "postHandle" : true,
+    "filterByEmoji" : true,
+    "postEmoji" : true,
+    "postHoverRotation" : true,
+    "postHoverShadow" : true
+  },
+  "assets" : {
+    "favicon32" : "assets/site/favicons/favicon-32.png",
+    "favicon16" : "assets/site/favicons/favicon-16.png",
+    "appleTouchIcon" : "assets/site/favicons/apple-touch-icon.png",
+    "shortcutIcon" : "assets/site/favicons/favicon.ico",
+    "profilePhoto" : "assets/profile.jpg"
+  },
+  "site" : {
+    "language" : "en-IE",
+    "title" : "Test site",
+    "description" : "Non-bio",
+    "url" : "https://mbehan-tester1.github.io/novanet-testing/"
   }
 }
