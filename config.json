@@ -1,98 +1,47 @@
 {
-  "site": {
-    "title": "Your site name",
-    "description": "Your home on the internet.",
-    "url": "https://example.com",
-    "language": "en-IE"
-  },
-  "profile": {
-    "name": "Your name here",
-    "handle": "",
-    "bio": "A little about you can go here.",
-    "photoAlt": "Placeholder silhouette for your profile photo",
-    "location": "Your location",
-    "links": [
-      {
-        "label": "RSS",
-        "url": "feeds/rss.xml",
-        "emoji": "🛰️"
-      },
-      {
-        "label": "JSON Feed",
-        "url": "feeds/feed.json",
-        "emoji": "🛰️"
-      }
-    ]
-  },
-  "assets": {
-    "profilePhoto": "assets/site/profile-placeholder.svg",
-    "favicon32": "assets/site/favicons/favicon-32.png",
-    "favicon16": "assets/site/favicons/favicon-16.png",
-    "appleTouchIcon": "assets/site/favicons/apple-touch-icon.png",
-    "shortcutIcon": "assets/site/favicons/favicon.ico"
-  },
-  "features": {
-    "openmoji": true,
-    "postEmoji": true,
-    "postHandle": true,
-    "filterByEmoji": true,
-    "postHoverRotation": true,
-    "postHoverShadow": true
-  },
-  "theme": {
-    "colorScheme": "dark",
-    "fontFamily": "\"Source Sans 3\", \"Source Sans Pro\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-    "fontStylesheet": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800;900&display=swap",
-    "colors": {
-      "background": "#292a2b",
-      "backgroundDeep": "#202122",
-      "panel": "#343536",
-      "profilePanel": "#343536",
-      "text": "#f7f2e8",
-      "muted": "#a9aaa8",
-      "postText": "#17191b",
-      "accent": "#f8d66d",
-      "line": "rgba(255, 255, 255, 0.12)",
-      "controlBackground": "rgba(255, 255, 255, 0.055)",
-      "controlBackgroundHover": "rgba(255, 255, 255, 0.12)",
-      "controlText": "#f7f2e8",
-      "mediaOverlayBackground": "rgba(23, 25, 27, 0.82)",
-      "mediaOverlayText": "#f7f2e8",
-      "shadow": "0 24px 60px rgba(0, 0, 0, 0.28)",
-      "postShadow": "0 12px 0 rgba(0, 0, 0, 0.16), 0 26px 48px rgba(0, 0, 0, 0.18)",
-      "postHoverShadow": "0 18px 0 rgba(0, 0, 0, 0.13), 0 34px 58px rgba(0, 0, 0, 0.28)"
+  "theme" : {
+    "fontStylesheet" : "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800;900&display=swap",
+    "colors" : {
+      "mediaOverlayBackground" : "rgba(23, 25, 27, 0.82)",
+      "postShadow" : "0 12px 0 rgba(0, 0, 0, 0.16), 0 26px 48px rgba(0, 0, 0, 0.18)",
+      "shadow" : "0 24px 60px rgba(0, 0, 0, 0.28)",
+      "controlBackgroundHover" : "rgba(255, 255, 255, 0.12)",
+      "postHoverShadow" : "0 18px 0 rgba(0, 0, 0, 0.13), 0 34px 58px rgba(0, 0, 0, 0.28)",
+      "profilePanel" : "#343536",
+      "backgroundDeep" : "#202122",
+      "background" : "#292a2b",
+      "accent" : "#f8d66d",
+      "text" : "#f7f2e8",
+      "muted" : "#a9aaa8",
+      "mediaOverlayText" : "#f7f2e8",
+      "panel" : "#343536",
+      "controlText" : "#f7f2e8",
+      "line" : "rgba(255, 255, 255, 0.12)",
+      "controlBackground" : "rgba(255, 255, 255, 0.055)",
+      "postText" : "#17191b"
     },
-    "fontSizes": {
-      "base": "20px",
-      "baseMobile": "18px",
-      "feedLabel": "0.78rem",
-      "profileHeading": "clamp(2.2rem, 3.7vw, 3.2rem)",
-      "profileHeadingMobile": "clamp(2.1rem, 11vw, 3.6rem)",
-      "feedHeading": "clamp(2.2rem, 6vw, 4.5rem)",
-      "profileBody": "1.15rem",
-      "control": "1rem",
-      "small": "0.95rem",
-      "meta": "1rem",
-      "badge": "0.82rem",
-      "code": "0.85rem",
-      "postBody": "clamp(1.3rem, 2.6vw, 1.75rem)",
-      "postBodyLong": "clamp(1.02rem, 1.7vw, 1.22rem)",
-      "postEmoji": "3.15rem",
-      "postEmojiMobile": "2.55rem",
-      "linkPreviewMeta": "0.92rem",
-      "linkPreviewTitle": "1.05rem",
-      "footer": "0.9rem"
+    "fontSizes" : {
+      "base" : "20px",
+      "control" : "1rem",
+      "postBodyLong" : "clamp(1.02rem, 1.7vw, 1.22rem)",
+      "footer" : "0.9rem",
+      "feedLabel" : "0.78rem",
+      "profileHeadingMobile" : "clamp(2.1rem, 11vw, 3.6rem)",
+      "small" : "0.95rem",
+      "baseMobile" : "18px",
+      "feedHeading" : "clamp(2.2rem, 6vw, 4.5rem)",
+      "badge" : "0.82rem",
+      "code" : "0.85rem",
+      "postBody" : "clamp(1.3rem, 2.6vw, 1.75rem)",
+      "profileHeading" : "clamp(2.2rem, 3.7vw, 3.2rem)",
+      "meta" : "1rem",
+      "postEmoji" : "3.15rem",
+      "postEmojiMobile" : "2.55rem",
+      "linkPreviewMeta" : "0.92rem",
+      "profileBody" : "1.15rem",
+      "linkPreviewTitle" : "1.05rem"
     },
-    "radii": {
-      "card": "24px",
-      "profilePhoto": "26px",
-      "emoji": "20px",
-      "media": "18px",
-      "linkPreview": "16px",
-      "linkPreviewImage": "12px",
-      "control": "999px"
-    },
-    "postColors": [
+    "postColors" : [
       "#f8d66d",
       "#9ee6c9",
       "#ffb3ba",
@@ -103,21 +52,72 @@
       "#ace7ef",
       "#ffef99",
       "#d7c7ff"
-    ]
+    ],
+    "fontFamily" : "\"Source Sans 3\", \"Source Sans Pro\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "colorScheme" : "dark",
+    "radii" : {
+      "linkPreview" : "16px",
+      "linkPreviewImage" : "12px",
+      "emoji" : "20px",
+      "card" : "24px",
+      "profilePhoto" : "26px",
+      "media" : "18px",
+      "control" : "999px"
+    }
   },
-  "labels": {
-    "latestPosts": "latest posts",
-    "backToFeed": "← Back to feed",
-    "previousPost": "← Previous",
-    "nextPost": "Next →",
-    "pinned": "Pinned",
-    "thread": "Thread",
-    "threadReplies": "Thread replies",
-    "threadReply": "Thread reply",
-    "wrapCode": "Wrap code",
-    "unwrapCode": "Unwrap code",
-    "missingPost": "That post seems to have wandered off.",
-    "emptyFilter": "Nothing in the feed matches that icon.",
-    "loadError": "Posts could not be loaded."
+  "assets" : {
+    "favicon32" : "assets/site/favicons/favicon-32.png",
+    "favicon16" : "assets/site/favicons/favicon-16.png",
+    "appleTouchIcon" : "assets/site/favicons/apple-touch-icon.png",
+    "profilePhoto" : "assets/site/profile-placeholder.svg",
+    "shortcutIcon" : "assets/site/favicons/favicon.ico"
+  },
+  "labels" : {
+    "threadReply" : "Thread reply",
+    "latestPosts" : "latest posts",
+    "missingPost" : "That post seems to have wandered off.",
+    "thread" : "Thread",
+    "nextPost" : "Next →",
+    "emptyFilter" : "Nothing in the feed matches that icon.",
+    "backToFeed" : "← Back to feed",
+    "pinned" : "Pinned",
+    "threadReplies" : "Thread replies",
+    "wrapCode" : "Wrap code",
+    "loadError" : "Posts could not be loaded.",
+    "previousPost" : "← Previous",
+    "unwrapCode" : "Unwrap code"
+  },
+  "site" : {
+    "language" : "en-IE",
+    "title" : "Your site name",
+    "url" : "https://mbehan-tester1.github.io/novanet-testing/",
+    "description" : "Your home on the internet."
+  },
+  "profile" : {
+    "bio" : "A little about you can go here.",
+    "links" : [
+      {
+        "label" : "RSS",
+        "url" : "feeds/rss.xml",
+        "emoji" : "🛰️"
+      },
+      {
+        "label" : "JSON Feed",
+        "url" : "feeds/feed.json",
+        "emoji" : "🛰️"
+      }
+    ],
+    "photoAlt" : "Placeholder silhouette for your profile photo",
+    "name" : "Your name here",
+    "location" : "Your location",
+    "handle" : ""
+  },
+  "features" : {
+    "openmoji" : true,
+    "postHandle" : true,
+    "filterByEmoji" : true,
+    "postEmoji" : true,
+    "postHoverRotation" : true,
+    "postHoverShadow" : true
   }
 }
