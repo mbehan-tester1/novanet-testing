@@ -1,29 +1,29 @@
 {
-  "feed_url" : "https://mbehan-tester1.github.io/novanet-testing/feeds/feed.json",
   "version" : "https://jsonfeed.org/version/1.1",
+  "title" : "Test site",
+  "feed_url" : "https://mbehan-tester1.github.io/novanet-testing/feeds/feed.json",
   "description" : "Non-bio",
   "authors" : [
     {
       "url" : "https://mbehan-tester1.github.io/novanet-testing",
-      "name" : "Testy testers on"
+      "name" : "Testy Testerson"
     }
   ],
   "language" : "en-IE",
   "items" : [
     {
-      "content_html" : "<article>\n  <p>This is my first post, let’s gooo!</p>\n</article>",
       "summary" : "This is my first post, let’s gooo!",
-      "date_published" : "2026-10-18T12:00:00Z",
-      "id" : "https://mbehan-tester1.github.io/novanet-testing/index.html?post=14465d27-f3c0-4b0b-ae17-6bcc9ba1d0ae",
-      "url" : "https://mbehan-tester1.github.io/novanet-testing/index.html?post=14465d27-f3c0-4b0b-ae17-6bcc9ba1d0ae",
+      "content_html" : "<article>\n  <p>This is my first post, let’s gooo!</p>\n</article>",
       "authors" : [
         {
           "url" : "https://mbehan-tester1.github.io/novanet-testing",
-          "name" : "Testy testers on"
+          "name" : "Testy Testerson"
         }
-      ]
+      ],
+      "date_published" : "2026-10-18T12:00:00Z",
+      "url" : "https://mbehan-tester1.github.io/novanet-testing/index.html?post=14465d27-f3c0-4b0b-ae17-6bcc9ba1d0ae",
+      "id" : "https://mbehan-tester1.github.io/novanet-testing/index.html?post=14465d27-f3c0-4b0b-ae17-6bcc9ba1d0ae"
     }
   ],
-  "home_page_url" : "https://mbehan-tester1.github.io/novanet-testing",
-  "title" : "Test site"
+  "home_page_url" : "https://mbehan-tester1.github.io/novanet-testing"
 }

@@ -1,4 +1,12 @@
 {
+  "features" : {
+    "openmoji" : true,
+    "postHandle" : true,
+    "filterByEmoji" : true,
+    "postEmoji" : true,
+    "postHoverRotation" : true,
+    "postHoverShadow" : true
+  },
   "labels" : {
     "threadReply" : "Thread reply",
     "latestPosts" : "latest posts",
@@ -14,17 +22,39 @@
     "previousPost" : "← Previous",
     "unwrapCode" : "Unwrap code"
   },
+  "site" : {
+    "language" : "en-IE",
+    "title" : "Test site",
+    "description" : "Non-bio",
+    "url" : "https://mbehan-tester1.github.io/novanet-testing/"
+  },
+  "profile" : {
+    "photoAlt" : "A person in a black hooded costume with red lights for eyes holds a large sword in a dimly lit room. A bookshelf with books is visible in the background.",
+    "location" : "Behind you ",
+    "bio" : "Non-bio",
+    "name" : "Testy Testerson",
+    "links" : [
+      {
+        "label" : "RSS",
+        "url" : "feeds/rss.xml",
+        "emoji" : "🛰️"
+      },
+      {
+        "label" : "JSON Feed",
+        "url" : "feeds/feed.json",
+        "emoji" : "🛰️"
+      }
+    ],
+    "handle" : "@testy"
+  },
+  "assets" : {
+    "favicon32" : "assets/site/favicons/favicon-32.png",
+    "favicon16" : "assets/site/favicons/favicon-16.png",
+    "appleTouchIcon" : "assets/site/favicons/apple-touch-icon.png",
+    "shortcutIcon" : "assets/site/favicons/favicon.ico",
+    "profilePhoto" : "assets/profile.jpg"
+  },
   "theme" : {
-    "fontFamily" : "\"Source Sans 3\", \"Source Sans Pro\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-    "radii" : {
-      "linkPreviewImage" : "13px",
-      "linkPreview" : "13px",
-      "emoji" : "13px",
-      "card" : "13px",
-      "profilePhoto" : "13px",
-      "media" : "13px",
-      "control" : "64px"
-    },
     "postColors" : [
       "#1A0A52"
     ],
@@ -49,66 +79,36 @@
       "profileBody" : "1.15rem",
       "linkPreviewTitle" : "1.05rem"
     },
-    "colorScheme" : "dark",
     "fontStylesheet" : "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800;900&display=swap",
     "colors" : {
-      "accent" : "#f8d66d",
-      "mediaOverlayText" : "#f7f2e8",
-      "background" : "#000000",
-      "profilePanel" : "#343536",
-      "postText" : "#FEFCDD",
-      "muted" : "#a9aaa8",
-      "line" : "rgba(255, 255, 255, 0.12)",
-      "text" : "#f7f2e8",
-      "controlBackgroundHover" : "rgba(255, 255, 255, 0.12)",
-      "postShadow" : "0 12px 0 rgba(0, 0, 0, 0.16), 0 26px 48px rgba(0, 0, 0, 0.18)",
-      "shadow" : "0 24px 60px rgba(0, 0, 0, 0.28)",
-      "controlBackground" : "rgba(255, 255, 255, 0.055)",
-      "panel" : "#343536",
-      "postHoverShadow" : "0 18px 0 rgba(0, 0, 0, 0.13), 0 34px 58px rgba(0, 0, 0, 0.28)",
-      "backgroundDeep" : "#202122",
       "controlText" : "#f7f2e8",
-      "mediaOverlayBackground" : "rgba(23, 25, 27, 0.82)"
+      "mediaOverlayBackground" : "rgba(23, 25, 27, 0.82)",
+      "shadow" : "0 24px 60px rgba(0, 0, 0, 0.28)",
+      "controlBackgroundHover" : "rgba(255, 255, 255, 0.12)",
+      "postHoverShadow" : "0 18px 0 rgba(0, 0, 0, 0.13), 0 34px 58px rgba(0, 0, 0, 0.28)",
+      "profilePanel" : "#343536",
+      "backgroundDeep" : "#202122",
+      "accent" : "#f8d66d",
+      "background" : "#000000",
+      "muted" : "#a9aaa8",
+      "mediaOverlayText" : "#f7f2e8",
+      "text" : "#f7f2e8",
+      "postShadow" : "0 12px 0 rgba(0, 0, 0, 0.16), 0 26px 48px rgba(0, 0, 0, 0.18)",
+      "panel" : "#343536",
+      "line" : "rgba(255, 255, 255, 0.12)",
+      "controlBackground" : "rgba(255, 255, 255, 0.055)",
+      "postText" : "#FEFCDD"
+    },
+    "fontFamily" : "\"Source Sans 3\", \"Source Sans Pro\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "colorScheme" : "dark",
+    "radii" : {
+      "linkPreviewImage" : "13px",
+      "linkPreview" : "13px",
+      "emoji" : "13px",
+      "card" : "13px",
+      "profilePhoto" : "13px",
+      "media" : "13px",
+      "control" : "64px"
     }
-  },
-  "site" : {
-    "language" : "en-IE",
-    "title" : "Test site",
-    "description" : "Non-bio",
-    "url" : "https://mbehan-tester1.github.io/novanet-testing/"
-  },
-  "profile" : {
-    "handle" : "@testy",
-    "links" : [
-      {
-        "label" : "RSS",
-        "url" : "feeds/rss.xml",
-        "emoji" : "🛰️"
-      },
-      {
-        "label" : "JSON Feed",
-        "url" : "feeds/feed.json",
-        "emoji" : "🛰️"
-      }
-    ],
-    "photoAlt" : "Fail",
-    "name" : "Testy testers on",
-    "location" : "Behind you ",
-    "bio" : "Non-bio"
-  },
-  "features" : {
-    "openmoji" : true,
-    "postHandle" : true,
-    "filterByEmoji" : true,
-    "postEmoji" : true,
-    "postHoverRotation" : true,
-    "postHoverShadow" : true
-  },
-  "assets" : {
-    "favicon32" : "assets/site/favicons/favicon-32.png",
-    "favicon16" : "assets/site/favicons/favicon-16.png",
-    "appleTouchIcon" : "assets/site/favicons/apple-touch-icon.png",
-    "shortcutIcon" : "assets/site/favicons/favicon.ico",
-    "profilePhoto" : "assets/profile.jpg"
   }
 }
