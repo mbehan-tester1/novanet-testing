@@ -9,6 +9,16 @@
     <lastBuildDate>Wed, 04 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://mbehan-tester1.github.io/novanet-testing/feeds/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <link>https://mbehan-tester1.github.io/novanet-testing/index.html?post=d3015a27-6215-443b-943b-abeb7b867fc2</link>
+      <guid isPermaLink="true">https://mbehan-tester1.github.io/novanet-testing/index.html?post=d3015a27-6215-443b-943b-abeb7b867fc2</guid>
+      <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+      <dc:creator>Testy Testerson</dc:creator>
+      <description>Test post, don’t ignore</description>
+      <content:encoded><![CDATA[<article>
+  <p>Test post, don’t ignore</p>
+</article>]]></content:encoded>
+    </item>
+    <item>
       <link>https://mbehan-tester1.github.io/novanet-testing/index.html?post=ac477edd-8e5a-457b-84a8-c1ab7c2aa9be</link>
       <guid isPermaLink="true">https://mbehan-tester1.github.io/novanet-testing/index.html?post=ac477edd-8e5a-457b-84a8-c1ab7c2aa9be</guid>
       <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
