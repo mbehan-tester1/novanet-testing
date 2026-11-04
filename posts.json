@@ -3,12 +3,24 @@
     "date" : "2026-11-04",
     "content" : [
       {
-        "text" : "What up",
-        "type" : "quote"
+        "type" : "image",
+        "src" : "assets/posts/ac477edd-8e5a-457b-84a8-c1ab7c2aa9be-1.jpg",
+        "alt" : ""
       }
     ],
-    "id" : "78e34855-efc6-4b18-afa8-6ccd7f5309d0",
-    "emoji" : "🤪"
+    "id" : "ac477edd-8e5a-457b-84a8-c1ab7c2aa9be",
+    "emoji" : "📸"
+  },
+  {
+    "content" : [
+      {
+        "type" : "quote",
+        "text" : "What up"
+      }
+    ],
+    "date" : "2026-11-04",
+    "emoji" : "🤪",
+    "id" : "78e34855-efc6-4b18-afa8-6ccd7f5309d0"
   },
   {
     "content" : [
@@ -17,8 +29,8 @@
         "text" : "This is my first post, let’s gooo!"
       }
     ],
-    "date" : "2026-10-18",
     "emoji" : "💁",
-    "id" : "14465d27-f3c0-4b0b-ae17-6bcc9ba1d0ae"
+    "id" : "14465d27-f3c0-4b0b-ae17-6bcc9ba1d0ae",
+    "date" : "2026-10-18"
   }
 ]
