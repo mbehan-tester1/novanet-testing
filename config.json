@@ -1,4 +1,11 @@
 {
+  "assets" : {
+    "favicon32" : "assets/site/favicons/favicon-32.png",
+    "favicon16" : "assets/site/favicons/favicon-16.png",
+    "appleTouchIcon" : "assets/site/favicons/apple-touch-icon.png",
+    "shortcutIcon" : "assets/site/favicons/favicon.ico",
+    "profilePhoto" : "assets/profile.jpg"
+  },
   "features" : {
     "openmoji" : true,
     "postHandle" : true,
@@ -22,17 +29,8 @@
     "previousPost" : "← Previous",
     "unwrapCode" : "Unwrap code"
   },
-  "site" : {
-    "language" : "en-IE",
-    "title" : "Test site",
-    "description" : "Non-bio",
-    "url" : "https://mbehan-tester1.github.io/novanet-testing/"
-  },
   "profile" : {
-    "photoAlt" : "A person in a black hooded costume with red lights for eyes holds a large sword in a dimly lit room. A bookshelf with books is visible in the background.",
-    "location" : "Behind you ",
-    "bio" : "Non-bio",
-    "name" : "Testy Testerson",
+    "handle" : "@testy",
     "links" : [
       {
         "label" : "RSS",
@@ -45,19 +43,12 @@
         "emoji" : "🛰️"
       }
     ],
-    "handle" : "@testy"
-  },
-  "assets" : {
-    "favicon32" : "assets/site/favicons/favicon-32.png",
-    "favicon16" : "assets/site/favicons/favicon-16.png",
-    "appleTouchIcon" : "assets/site/favicons/apple-touch-icon.png",
-    "shortcutIcon" : "assets/site/favicons/favicon.ico",
-    "profilePhoto" : "assets/profile.jpg"
+    "photoAlt" : "A person in a black hooded costume with red lights for eyes holds a large sword in a dimly lit room. A bookshelf with books is visible in the background.",
+    "name" : "Testy Testerson",
+    "location" : "Behind you ",
+    "bio" : "Non-bio"
   },
   "theme" : {
-    "postColors" : [
-      "#1A0A52"
-    ],
     "fontSizes" : {
       "base" : "20px",
       "control" : "1rem",
@@ -79,10 +70,9 @@
       "profileBody" : "1.15rem",
       "linkPreviewTitle" : "1.05rem"
     },
-    "fontStylesheet" : "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800;900&display=swap",
     "colors" : {
-      "controlText" : "#f7f2e8",
-      "mediaOverlayBackground" : "rgba(23, 25, 27, 0.82)",
+      "controlBackground" : "rgba(255, 255, 255, 0.055)",
+      "postText" : "#FEFCDD",
       "shadow" : "0 24px 60px rgba(0, 0, 0, 0.28)",
       "controlBackgroundHover" : "rgba(255, 255, 255, 0.12)",
       "postHoverShadow" : "0 18px 0 rgba(0, 0, 0, 0.13), 0 34px 58px rgba(0, 0, 0, 0.28)",
@@ -94,13 +84,18 @@
       "mediaOverlayText" : "#f7f2e8",
       "text" : "#f7f2e8",
       "postShadow" : "0 12px 0 rgba(0, 0, 0, 0.16), 0 26px 48px rgba(0, 0, 0, 0.18)",
+      "controlText" : "#f7f2e8",
+      "mediaOverlayBackground" : "rgba(23, 25, 27, 0.82)",
       "panel" : "#343536",
-      "line" : "rgba(255, 255, 255, 0.12)",
-      "controlBackground" : "rgba(255, 255, 255, 0.055)",
-      "postText" : "#FEFCDD"
+      "line" : "rgba(255, 255, 255, 0.12)"
     },
-    "fontFamily" : "\"Source Sans 3\", \"Source Sans Pro\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
     "colorScheme" : "dark",
+    "postColors" : [
+      "#1A0A52",
+      "#F8D66D"
+    ],
+    "fontFamily" : "\"Source Sans 3\", \"Source Sans Pro\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "fontStylesheet" : "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800;900&display=swap",
     "radii" : {
       "linkPreviewImage" : "13px",
       "linkPreview" : "13px",
@@ -110,5 +105,11 @@
       "media" : "13px",
       "control" : "64px"
     }
+  },
+  "site" : {
+    "language" : "en-IE",
+    "title" : "Test site",
+    "description" : "Non-bio",
+    "url" : "https://mbehan-tester1.github.io/novanet-testing/"
   }
 }
